@@ -1,0 +1,20 @@
+[
+    {
+        "word": "apple",
+        "translation": "яблоко",
+        "definition": "A round fruit with red or green skin and a whitish interior.",
+        "example": "She ate an apple for lunch."
+    },
+    {
+        "word": "book",
+        "translation": "книга",
+        "definition": "A set of written or printed pages, usually bound with a protective cover.",
+        "example": "He read a book before bed."
+    },
+    {
+        "word": "computer",
+        "translation": "компьютер",
+        "definition": "An electronic device for storing and processing data.",
+        "example": "She uses her computer for work."
+    }
+]

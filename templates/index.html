@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .word {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <h2>Количество слов {{ words_amount }}</h2>
+    {% for word in words %}
+        <div class="word">
+            <h3>{{ word.word }}</h3>
+            <p><strong>Перевод:</strong> {{ word.translation }}</p>
+            <p><strong>Значение:</strong> {{ word.definition }}</p>
+            <p><strong>Пример:</strong> {{ word.example }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>

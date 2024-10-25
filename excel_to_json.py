@@ -27,6 +27,6 @@ def excel_to_json(excel_file, json_file):
 
 
 if __name__ == "__main__":
-    excel_file = 'words.xlsx'
-    json_file = 'glossaries/words.json'
+    excel_file = r"C:\Users\user\Учеба\АНГЛ\Академ.xlsx"
+    json_file = 'glossaries/academic.json'
     excel_to_json(excel_file, json_file)
